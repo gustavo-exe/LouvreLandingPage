@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500;700&display=swap');
+
+.FontPlayfair{
+    font-family: 'Playfair Display', serif;
+}
+
+.DimensionBackground
+{
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.TheLastSupper
+{
+    background-image: url('../imgs/TheLastVector.svg');
+    min-height: 100vh;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.David
+{
+    background-image: url('../imgs/David.jpg');
+    
+}
+
+.Tondo
+{
+    background-image: url('../imgs/TondoDoni.jpg');
+}
+
+.Adan
+{
+    background-image: url('../imgs/LaCreacionDeAdan.png');
+    height: 50rem;
+}
+
+.MonaLisa
+{
+    background-image: url('../imgs/MonaLisa.jpg');
+}
+
+.LaScapigliata
+{
+    background-image: url('../imgs/LaScapigliata.jpg');
+}
+
+nav
+{
+    color: #ffffff; background-color: #272727;
+}
+
+h1
+{
+    text-shadow: 2px 2px 10px #000000; letter-spacing: 0.3vw; font-size: 8vw; color: #ffffff;
+}
+
+h5
+{
+    letter-spacing: 0.1vw; color: #ffffff;
+}
+
+main
+{
+    background-color: #201d19;
+}
+
+.RowPhotos
+{
+    margin: 1%; height: 50vh; width: 98%;
+}
+
+
+#FormReserve
+{
+    color: #cccccc; width: 100%; height: auto;
+}
+
+.ColumPhotos
+{
+    margin: 1%; width: 50vw;
+}
+
+.DimensionBackground {filter: grayscale(100%); }
+
+.DimensionBackground:hover {filter: grayscale(0%); filter:brightness(90%);}
+
+/*Movil*/
+@media (max-width: 767px) {
+    .InfoContainer
+    {
+        width: 100%;
+    }
+    .ColumPhotos
+    {
+        height: 20vh;
+    }
+}
+
+/*iPad*/
+@media (min-width:768px)
+{
+    .InfoContainer
+    {
+        width: 70%;
+    }
+
+    .ColumPhotos
+    {
+        height: 30vh;
+    }
+}
+
+/*Monitor*/
+@media(min-width:1025px)
+{
+    .InfoContainer
+    {
+        width: 30%;
+    }
+    .ColumPhotos
+    {
+        height: 50vh;
+    }
+}
