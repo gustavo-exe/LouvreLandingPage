@@ -13,7 +13,7 @@ Page inspired by a museum, sponsoring one of events.
 
 ## Preview and UI
 ![Mockup](./imgs/MockupLouvre.jpg)
-![Colors](./imgs/Colors.png)
+![Colors](https://raw.githubusercontent.com/gustavo-exe/LouvreLandingPage/master/imgs/colors.png)
 
 ## Built with
 - HTML 5
